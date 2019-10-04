@@ -1,0 +1,245 @@
+/*body*/
+html, body{
+	height:100%;
+	margin:0;
+}
+body{
+	font-family:Helvetica, Verdana, sans-serif;
+	background:#EFEEEC;
+	margin:0;
+	padding:0;
+	overflow-x:hidden;
+}
+.wrapper{
+	min-height:100%;
+  	margin-bottom:-60px;
+	display:block;
+}
+
+/* Navbar */ 
+.navbar{
+margin-bottom:0;
+border-radius:0;
+        border: 0px;
+        z-index:100000;
+}
+.navbar-right {
+padding-right:50px;
+}
+.navbar-inverse{
+padding:10px;
+background-color:#000000;
+}
+.b{
+border-bottom:2px solid #303030;
+font-size:18px;
+}
+.logo{
+padding-left:7px;
+}
+@media screen and (orientation:portrait) and (max-width:320px){
+.b{
+font-size:12px;
+}
+}
+@media screen and (orientation:portrait) and (min-width:321px){
+.b{
+font-size:14px;
+}
+}
+@media screen and (orientation:portrait) and (min-width:600px){
+.b{
+font-size:18px;
+}
+}
+@media screen and (orientation:landscape) and (max-width:320px){
+.b{
+font-size:13px;
+}
+}
+@media screen and (orientation:landscape) and (min-width:321px){
+.b{
+font-size:14px;
+}
+}
+@media screen and (orientation:landscape) and (min-width:1366px){
+.b{
+font-size:16px;
+}
+}
+@media screen and (orientation:landscape) and (width:1366px) and (height:1024px){
+.b{
+font-size:18px;
+}
+}
+@media screen and (orientation:landscape) and (min-width:1400px){
+.b{
+font-size:18px;
+}
+}
+@media screen and (orientation:landscape) and (min-width:1440px){	
+.b{
+font-size:20px;
+}
+}
+@media screen and (orientation:landscape) and (min-width:1900px){
+.b{
+font-size:20px;
+}
+}
+
+#indicator{
+	left:5px;
+	right:20px;
+	background-color:#EFEEEC;
+}
+h1{
+	font-weight:normal;
+	font-style:normal;
+	color:#000000;
+	text-align:center;
+	white-space:nowrap;
+}
+h2{
+	font-weight:normal;
+	font-style:normal;
+	color:#000000;
+	text-align:center;
+	white-space:nowrap;
+}
+#counter{
+	font-weight:normal;
+	font-style:normal;
+	text-align:center;
+	white-space:nowrap;
+	display:block;
+}
+
+/*footer*/
+.footer,
+.push{
+	height:60px;
+}
+.footer{
+	background-color:#000000; 
+	color:#ffffff;
+	text-align:center;
+	font-weight:normal;
+	font-size:10px;
+	line-height:60px;
+	bottom:0;
+	right:0;
+	left:0;
+	display:inline-block;
+	width:100%;
+	font-family:Helvetica, Verdana, sans-serif;	
+}
+
+@media screen and (orientation:portrait) and (max-width:320px){
+.footer{
+	font-size:9px;
+}
+}
+@media screen and (orientation:portrait) and (min-width:321px){
+.footer{
+	font-size:10px;
+}
+}
+@media screen and (orientation:portrait) and (min-width:600px){
+.footer{
+	font-size:10px;
+}
+}
+@media screen and (orientation:landscape) and (max-width:320px){
+.footer{
+	font-size:10px;
+}
+}
+@media screen and (orientation:landscape) and (min-width:321px){
+.footer{
+	font-size:12px;
+}
+}
+@media screen and (orientation:landscape) and (min-width:1366px){
+.footer{
+	font-size:14px;
+}
+}
+@media screen and (orientation:landscape) and (width:1366px) and (height:1024px){
+.footer{
+	font-size:16px;
+}
+}
+@media screen and (orientation:landscape) and (min-width:1400px){
+.footer{
+	font-size:14px;
+}
+}
+@media screen and (orientation:landscape) and (min-width:1440px){	
+.footer{
+	font-size:16px;
+}
+}
+@media screen and (orientation:landscape) and (min-width:1900px){
+.footer{
+	font-size:18px;
+}
+}
+
+@media screen and (orientation:portrait) and (min-width:590px){	
+	h1{
+		font-size:30px;
+		padding-top:100px;
+	}		
+	h2{
+		font-size:27px;
+	}
+	#counter{
+		font-size:22px;
+	}
+}
+@media screen and (orientation:portrait) and (min-width:241px){
+	h1{
+		font-size:14px;
+		padding-top:100px;
+	}		
+	h2{
+		font-size:13px;
+	}
+	#counter{
+		font-size:10px;
+	}
+}
+@media screen and (orientation:portrait) and (max-width:240px){
+	h1{
+		font-size:14px;
+	}		
+	h2{
+		font-size:13px;
+	}
+	#counter{
+		font-size:10px;
+	}
+}
+@media screen and (orientation:landscape) and (min-width:590px){	
+	h1{
+		font-size:24px;
+	}		
+	h2{
+		font-size:21px;
+	}
+	#counter{
+		font-size:19px;
+	}
+}
+@media screen and (orientation:landscape) and (max-width:589px){
+	h1{
+		font-size:12px;
+	}
+	h2{
+		font-size:11px;
+	}
+	#counter{
+		font-size:10px;
+	}
+}

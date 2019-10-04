@@ -1,0 +1,22 @@
+/*For IE8 section*/
+
+h1{
+	font-size:24px;
+	padding-top:60px;
+}		
+	
+h2{
+	font-size:21px;
+}
+	
+#counter{
+	font-size:19px;
+}
+	
+.cone{ 
+	max-width:10%; 
+}
+
+.copyright{
+	font-size:17px;
+}
